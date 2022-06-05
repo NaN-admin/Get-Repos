@@ -1,0 +1,52 @@
+body {
+  background-color: #333;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form input {
+  border: 1px solid black;
+}
+.form button,
+.form input,
+.form h2 {
+  margin: 10px;
+  animation: Show 1s;
+}
+h2,
+td,
+th {
+  color: white;
+}
+a {
+  color: rgb(217, 221, 20);
+  transition: 0.5s;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+tr th,
+tr td {
+  padding: 10px;
+}
+
+@keyframes Show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
