@@ -1,2 +1,2 @@
 # Get-Repos
-URL = https://thestranger0.github.io/Get-Repos/
+URL = https://NaN-admin.github.io/Get-Repos/
